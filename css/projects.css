@@ -1,0 +1,544 @@
+.projects{
+    background-color: #fad4cf;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.project-heading{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 0.2px solid #fff;
+    
+}
+.project-heading h2{
+    letter-spacing: 3px;
+    color: #333;
+    
+}
+.project-1, .project-2, .project-3{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.project-content{
+    flex:1;
+    display: flex;
+    padding: 32px 64px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+.project-content h3{
+    font-size: 2rem;
+    line-height: 24px;
+    text-align: initial;
+    font-family: "Bebas_Neue", sans-serif;
+    color: #333;
+    font-weight: 600;
+}
+.project-content p{
+    width: 80%;
+    text-align: initial;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Bebas_Neue", sans-serif;
+    color: #333;
+    justify-content: center;
+}
+.project-content_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+    
+}
+.project-content_view-button{
+    padding: 10px 40px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #04AA6D;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.project-content_github-button{
+    padding: 10px 40px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #04AA6D;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.project-content_view-button:hover {
+    background-color: rgb(252, 167, 56);
+}
+.project-content_github-button:hover {
+    background-color: rgb(252, 167, 56);
+}
+.project-1 .project_image-1{
+    flex: 1;
+    position: relative;
+    padding: 50px 64px;
+    background-color: #fde0dd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+.project-2 .project_image-2{
+    flex: 1;
+    position: relative;
+    padding: 50px 64px;
+    background-color: #fde0dd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.project-3 .project_image-3{
+    flex: 1;
+    position: relative;
+    padding: 50px 64px;
+    background-color: #fde0dd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.project-1 .project_image-1 img{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+}
+.project-2 .project_image-2 img{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    margin-right: 15%;
+}
+.project-3 .project_image-3 img{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* ------------------ Contact section ------------- */
+
+.email{
+    color: #0000FF;
+    text-decoration: underline;
+}
+.email:hover{
+    color: red;
+    font-style: italic;
+}
+.contact-container{
+    background-color: #fef2d8 ;
+    width: 100%;
+    min-height: 500px;
+}
+.contact-container .contact-me{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-me h2{
+    font-family: "Roboto" , sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #fff;
+}
+.getintouch{
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    padding-top: 30px;
+}
+.getintouch h3{
+    font-family: "Roboto" , sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #333;
+    line-height: 6rem;
+}
+.getintouch p{
+    text-align: initial;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: "Bebas_Neue", sans-serif;
+    color: #333;
+   
+    
+}
+.contact-container .contact{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 100px 20px 150px;
+    
+}
+
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 70px; 
+    padding-top: 30px; 
+}
+
+.social p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;  
+}
+.fbook{
+    background: #3B5998;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fbook:hover {
+    background: #8299c9;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lkdin {
+    background: #007bb5;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lkdin:hover {
+    background: #76b3cf;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.github {
+    background: #333;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.github:hover {
+    background: #828181;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.social-icon img{
+    height: 20px;
+}
+
+/* ------------------------ Footer ------------------------- */
+
+.footer-main{
+    background: #8acdb2 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    margin: 20px;
+}
+
+.footer p{
+    font-size: 1.2rem;
+}
+
+
+
+/* Mobile device */
+@media only screen and (max-width: 600px){
+    .social-icon {
+        display: none 
+    }
+    .social{
+        display: none
+    }
+}
+
+
+
+
+
+/* -------------------- Mobile device ------------------ */
+
+
+@media only screen and (max-width: 600px){
+    
+    .project-heading{
+        padding: 0;
+    }
+
+    .project-heading h2{
+        padding: 5px;
+        border-bottom: 1px solid #fff;
+        
+    }
+    
+    .project-1{
+        
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+    .project-2{
+        
+        display: flex;
+        flex-direction: column;  
+    }
+    .project-3{
+        
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+    
+    .project-1 .project_image-1{
+        padding: 50px 64px;
+        background-color: #fde0dd;
+        
+    }
+    .project-2 .project_image-2{
+        
+        padding: 50px 64px;
+        
+    }
+    .project-3 .project_image-3{
+        
+        padding: 50px 64px;
+        
+    }
+    
+    .project-1 .project_image-1 img{
+        height: 180px;
+    }
+    .project-2 .project_image-2 img{
+        
+        height: 180px;
+        
+    }
+    .project-3 .project_image-3 img{
+        height: 180px;
+    }
+    .project-content{
+        padding: 60px 0px; 
+    }
+
+    /* Contact section */
+
+
+    .getintouch{
+    
+        padding-top: 0px;
+    }
+    
+    .contact-container .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0px 20px 30px;
+        
+    }
+    .contact-me h2{
+        border-bottom: 1px solid #fff;
+        padding: 5px;
+    }
+    
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+        padding: 0px 0px 0px 0px;
+    }
+    .social h4{
+        padding-top: 40px;
+        
+    }
+    .social p{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        
+    }
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        flex-wrap: wrap; 
+    }
+    .fbook{
+        background: #3B5998;
+        color: white;
+        padding: 12px 15px 12px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .lkdin {
+        background: #007bb5;
+        color: white;
+        padding: 12px 15px 12px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .github {
+        background: #333;
+        color: white;
+        padding: 12px 15px 12px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .getintouch h3{
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+    
+    .project-heading{
+        padding: 0;
+    }
+
+    .project-heading h2{
+        padding: 5px;
+        border-bottom: 1px solid #fff;
+        
+    }
+    
+    .project-1{
+        
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+    .project-2{
+        
+        display: flex;
+        flex-direction: column;  
+    }
+    .project-3{
+        
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+    
+    .project-1 .project_image-1{
+        padding: 50px 64px;
+        background-color: #fde0dd;
+        
+    }
+    .project-2 .project_image-2{
+        
+        padding: 50px 64px;
+        
+    }
+    .project-3 .project_image-3{
+        
+        padding: 50px 64px;
+        
+    }
+    
+    .project-1 .project_image-1 img{
+        height: 180px;
+    }
+    .project-2 .project_image-2 img{
+        
+        height: 180px;
+        
+    }
+    .project-3 .project_image-3 img{
+        height: 180px;
+    }
+    .project-content{
+        padding: 60px 0px; 
+    }
+
+
+
+    .getintouch{
+    
+        padding-top: 0px;
+    }
+    
+    .contact-container .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0px 20px 30px;
+        
+    }
+    .contact-me h2{
+        border-bottom: 1px solid #fff;
+        padding: 5px;
+    }
+    
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+        padding: 0px 0px 0px 0px;
+    }
+    .social h4{
+        padding-top: 40px;
+        
+    }
+    .social p{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        
+    }
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        flex-wrap: wrap; 
+    }
+    .fbook{
+        background: #3B5998;
+        color: white;
+        padding: 12px 15px 12px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .lkdin {
+        background: #007bb5;
+        color: white;
+        padding: 12px 15px 12px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .github {
+        background: #333;
+        color: white;
+        padding: 12px 15px 12px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .getintouch h3{
+        font-size: 2rem;
+    }
+}

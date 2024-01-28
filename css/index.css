@@ -1,0 +1,181 @@
+/* Main-section below header*/
+.main{
+    background-color: #fae0cf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(250, 224, 207, .8),rgba(245, 227, 227, 0.8)),url(../images/subtle-prism-grey.png);
+    
+}
+.main-content{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px); /* 100 viewport height minus 80px headers height-- to prevent main to go behind the header */
+    margin-top: 80px; /* is required to push main container 80px down */
+    flex-direction: row;
+}
+.intro-main{
+    font-size: 5rem;
+    line-height: 7rem;
+    letter-spacing: 2px;
+    margin: 110px 40px;
+    padding-left: 40px; 
+    text-align: initial;
+}
+
+.female-image{
+    position: absolute;
+    right: 120px;
+}
+.female-image img{
+    position: relative;
+    width: 300px;
+    filter: drop-shadow( 2px 15px 20px #706f72); 
+    margin-top: 60px; 
+}
+
+/* About Section*/
+
+
+.about{
+    width: 100%;
+    
+    background-color: #F0C7CD;
+    
+}
+.about-me{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+}
+.justifytext{
+    text-align: justify;
+}
+.aboutme{
+    font-family: "Roboto" , sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-left: 40%;
+    color: #333;
+    font-weight: 400;
+    
+}
+.text-about {
+    width: 90%;
+    text-align: initial;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: "Bebas_Neue", sans-serif;
+    align-self:center;
+    display: flex;
+    flex-direction: column;  
+}  
+.text-about .para1{
+    margin-bottom: 1rem;
+} 
+.text-about .para2{
+    margin-bottom: 1rem;
+} 
+.text-about .para3{
+    margin-bottom: 1rem;
+}  
+.text-about .para4{
+    margin-bottom: 2rem;
+    align-content: space-between;
+}
+
+.text-about .para4 a:link {
+    color:#0000FF;    /* Problem: color is not changing to blue*/
+    background-color: transparent;
+    text-decoration: underline;
+}
+.text-about .para4 a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+/* Mobile device */
+/* <600px, 601px, 768, 992px, 1200px */
+
+
+@media only screen and (max-width: 600px){
+    
+    .main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-content{
+        
+        height: calc(100vh - 80px); /* 100 viewport height minus 80px headers height-- to prevent main to go behind the header */
+    }
+    .intro-main{
+        font-size: 4rem;
+        line-height: 6rem;
+        margin: 30px 20px;
+        padding-left: 40px; 
+    }
+    
+    .female-image{
+        right: 60px;
+        
+    }
+
+    .female-image img{
+        width: 150px;
+        margin: 160px  20px 0px 0px;
+        
+    }
+
+    /* about section */
+
+    .justifytext{
+        text-align: justify;
+    }
+    .aboutme{
+        padding-left: 25%;
+    }
+    .text-about {
+        width: 80%;
+    }  
+    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+    .main{
+        flex-direction: column;
+        
+    }
+    .main-content{
+        
+        height: calc(100vh - 80px); /* 100 viewport height minus 80px headers height-- to prevent main to go behind the header */
+    }
+
+    .intro-main{
+        font-size: 5rem;
+        line-height: 7rem;
+        letter-spacing: 2px;
+        margin: 0px 20px;
+        padding-left: 40px; 
+        text-align: initial;
+    }
+    .female-image{
+        
+        right: 60px;
+    }
+    .female-image img{
+        width: 150px;
+        margin: 310px  0px 120px 0px; 
+    }
+
+    .aboutme{
+        padding-left: 35%; 
+    }
+}
+

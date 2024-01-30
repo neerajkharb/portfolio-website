@@ -1,0 +1,97 @@
+#FAE0CF
+#E3CEC7
+#FAD4CF
+#F0C7CD
+
+https://www.youtube.com/watch?v=24IzPAcz_aw
+
+
+<a href="https://www.google.com/">
+                    <button class="project-content_github-button">
+                        GitHub
+                    </button>
+                </a>
+
+/* Hamburger menu */
+
+<nav class="burger-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contactme">Contact</a></li>
+        </ul> 
+    </nav>
+    <!-- Burger menu end -->
+    <!------------ Header Section of my Website ------------>
+    <header class="header-main">
+        <div class="header-main-logo">
+            <img src="images/logo.png" alt="logo" id="logo">
+        </div>
+        <nav class="header-main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#project">Portfolio</a></li>
+                <li><a href="#contactme">Contact</a></li>
+            </ul> 
+        </nav>
+        <div class="header-main-sm">
+            <div class="burger-menu-btn"></div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+.burger-menu, .burger-menu-btn{
+    display: none;
+}
+/* Mobile device */
+@media only screen and (max-width: 600px){
+
+    .burger-menu-btn{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-image: url(../images/menu-burger.png), url(../images/close.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center, center left 50px;
+    }
+    
+    .burger-menu{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 900;
+        background-color: #111;
+    }
+
+    .burger-menu ul {
+        width: 100%;
+        height: calc(100vh - 80px);
+        padding-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .burger-menu ul li{
+        flex-basis: 100%;   
+    }
+    .burger-menu ul li a {
+        display: block;
+        height: 100%;
+        font-size: 3rem;
+        padding: 30px 0;
+        flex-basis: 100%;
+        text-align: center;
+    }

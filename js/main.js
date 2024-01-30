@@ -15,3 +15,6 @@ burgerBtn.onclick = function () {
         isBurgerOpen = false;
     }
 }
+
+
+    

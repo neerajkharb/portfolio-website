@@ -192,8 +192,8 @@
     }
 
     .intro-main{
-        font-size: 5rem;
-        line-height: 7rem;
+        font-size: 4rem;
+        line-height: 6rem;
         letter-spacing: 2px;
         margin: 0px 20px;
         padding-left: 40px; 
@@ -214,3 +214,27 @@
     
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .main-content{
+        
+        flex-direction: column;
+    }
+
+    .intro-main{
+        font-size: 5rem;
+        line-height: 7rem;
+        
+        padding: 80px 20px;
+    }
+
+    .female-image img{
+        width: 250px;
+        margin: 450px  0px 120px 250px; 
+    }
+
+    .female-image{
+        
+        padding: 0px 400px;
+    }
+}
